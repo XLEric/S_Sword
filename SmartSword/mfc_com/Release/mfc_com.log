@@ -1,0 +1,70 @@
+﻿生成启动时间为 2015/11/7 20:10:30。
+     1>项目“D:\李翔\资料\C program\mfc_com\mfc_com\mfc_com.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Release\mfc_com.lastbuildstate”。
+       InitializeBuildStatus:
+         正在对“Release\mfc_com.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\mfc_com.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\mfc_com.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ClassView.cpp CommTest.cpp CvvImage.cpp FileView.cpp MainFrm.cpp mfc_com.cpp mfc_comDoc.cpp mfc_comView.cpp mscomm1.cpp OpenGL.cpp OutputWnd.cpp PropertiesWnd.cpp ViewTree.cpp
+         ClassView.cpp
+         CommTest.cpp
+     1>d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>CommTest.cpp(302): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>CommTest.cpp(122): warning C4101: “rxdataflagz”: 未引用的局部变量
+     1>CommTest.cpp(120): warning C4101: “rxdataflagx”: 未引用的局部变量
+     1>CommTest.cpp(121): warning C4101: “rxdataflagy”: 未引用的局部变量
+     1>CommTest.cpp(466): warning C4554: “|”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>CommTest.cpp(466): warning C4554: “|”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+         CvvImage.cpp
+         FileView.cpp
+         MainFrm.cpp
+         mfc_com.cpp
+         mfc_comDoc.cpp
+         mfc_comView.cpp
+         mscomm1.cpp
+         OpenGL.cpp
+     1>OpenGL.cpp(313): warning C4042: “xrot”: 有坏的存储类
+     1>OpenGL.cpp(313): warning C4042: “yrot”: 有坏的存储类
+     1>OpenGL.cpp(313): warning C4042: “zrot”: 有坏的存储类
+     1>OpenGL.cpp(314): warning C4042: “xacc”: 有坏的存储类
+     1>OpenGL.cpp(314): warning C4042: “yacc”: 有坏的存储类
+     1>OpenGL.cpp(314): warning C4042: “zacc”: 有坏的存储类
+     1>OpenGL.cpp(526): warning C4101: “pFile”: 未引用的局部变量
+         OutputWnd.cpp
+         PropertiesWnd.cpp
+         ViewTree.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\mfc_com.res" mfc_com.rc 
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\李翔\资料\C program\mfc_com\Release\mfc_com.exe" /INCREMENTAL:NO /NOLOGO opengl32.lib glu32.lib glut32.lib opencv_calib3d243d.lib opencv_contrib243d.lib opencv_core243d.lib opencv_features2d243d.lib opencv_flann243d.lib opencv_gpu243d.lib opencv_highgui243d.lib opencv_imgproc243d.lib opencv_legacy243d.lib opencv_ml243d.lib opencv_objdetect243d.lib opencv_ts243d.lib opencv_video243d.lib /MANIFEST /ManifestFile:"Release\mfc_com.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\李翔\资料\C program\mfc_com\Release\mfc_com.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\李翔\资料\C program\mfc_com\Release\mfc_com.lib" /MACHINE:X86 Release\mfc_com.res
+         Release\ClassView.obj
+         Release\CommTest.obj
+         Release\CvvImage.obj
+         Release\FileView.obj
+         Release\MainFrm.obj
+         Release\mfc_com.obj
+         Release\mfc_comDoc.obj
+         Release\mfc_comView.obj
+         Release\mscomm1.obj
+         Release\OpenGL.obj
+         Release\OutputWnd.obj
+         Release\PropertiesWnd.obj
+         Release\stdafx.obj
+         Release\ViewTree.obj
+         正在生成代码
+         已完成代码的生成
+         mfc_com.vcxproj -> D:\李翔\资料\C program\mfc_com\Release\mfc_com.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\李翔\资料\C program\mfc_com\Release\mfc_com.exe;#1" /manifest Release\mfc_com.exe.intermediate.manifest "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\mfc_com.unsuccessfulbuild”。
+         正在对“Release\mfc_com.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\李翔\资料\C program\mfc_com\mfc_com\mfc_com.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:10.06
